@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 0rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar-menu li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+  .active {
+    height: 100vh;
+    padding: 1rem;
+  }
+
+  /* <!-- Creative individuals section  css--> */
+  .Creative_individuals h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar-menu {
+    width: 50%;
+    justify-content: space-between;
+  }
+  /* hero secvtion */
+  .video {
+    max-height: 600px !important;
+    object-fit: fill;
+  }
+}

@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.b {
+  border: 2px solid red;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+.navbar-logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-logo a img {
+  height: 50px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  text-align: center;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-toggle span {
+  background-color: #fff;
+  display: block;
+  height: 3px;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease-out;
+  width: 25px;
+}
+/* hero css */
+.hero {
+  width: 100%;
+}
+.hero .video {
+  width: 100%;
+}
+/* <!-- Creative individuals section  css--> */
+.Creative_individuals h1,
+.Creative_individuals p {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.Creative_individuals h1 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+.Creative_individuals p {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.individuals-grid {
+  margin: 20px auto;
+  max-width: 80%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+.inner_grid {
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 0 20px 1px rgba(128, 128, 128, 0.589);
+  margin: 10px;
+  text-align: center;
+}
+
+/* why creative section */
+
+.why_creative {
+  background: no-repeat center/cover
+    url("./images/For-Last-part-Patch-opt.webp");
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+}
+.creative_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 80%;
+  margin: 20px auto;
+  gap: 1rem;
+}
+.crative_child {
+  background-color: rgba(57, 57, 57, 0.592);
+  text-align: center;
+  padding: 1.2rem 1rem;
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  color: #fff;
+}
+.crative_child:hover {
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+}
+.crative_child h3 {
+  margin-top: 0.9rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+/* <!-- Our Reputation of Competencies section  --> */
+.Reputation_heading{
+  margin-top: 30px;
+}
+.Reputation_heading h2{
+  font-size: 2.5rem;
+}
+.Reputation_heading p{
+  margin-top: 10px;
+}
+
