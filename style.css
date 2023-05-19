@@ -5,6 +5,19 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+.map{
+  min-height: 500px;
+  display: grid;
+  margin: 20px 0;
+  place-items: center;
+  
+}
+.mapf{
+  margin: 20px 0;
+  width: 80% !important  ;
+  height: 500px!important;
+
+}
 .b {
   border: 2px solid red;
 }
